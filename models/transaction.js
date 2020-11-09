@@ -23,3 +23,7 @@ const transactionSchema = new Schema(
 const Transaction = mongoose.model("Transaction", transactionSchema);
 
 module.exports = Transaction;
+
+//service workier
+//DB in public
+//manifest.json file
