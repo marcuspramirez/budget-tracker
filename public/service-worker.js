@@ -3,11 +3,22 @@ const FILES_TO_CACHE = [
     "/index.html",
     "./assets/piggybank.jpg",
     "/manifest.webmanifest",
-    "/routes/api.js"
+    "/routes/api.js",
+    "/models/transaction.js",
+    "/app.js",
+
 ];
 
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
+
+const staticFilesToPreCache = [
+    "/",
+    "/index.html",
+    "./assets/piggybank.jpg",
+    "/manifest.webmanifest",
+    "/routes/api.js"
+  ]
 
 self.addEventListener("install", function(evt) {
     evt.waitUntil(
