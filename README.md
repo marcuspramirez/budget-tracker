@@ -20,5 +20,5 @@ Input the name of your transaction and the amount.  Whether online or offline, o
 
 ## Screenshot
 
-![](/assets/images/budgetImage.PNG)
+![](public/assets/images/budgetImage.PNG)
 
